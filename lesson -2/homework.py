@@ -104,6 +104,8 @@ else:
 
 
 
+
+
 #problem6
 """
 string1=str(input("Enter the word: "))
@@ -162,6 +164,7 @@ print(separator.join(sentence.split()))
 """
 word=str(input("Enter the sentence: "))
 print(word.replace(" ", ""))
+
 """
 
 #problem14 
