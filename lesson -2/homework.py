@@ -53,7 +53,10 @@ print(f"Temprature in Faranheit is {f}")
 """
 #problem6
 
-
+"""
+a=str(input("Enter the number: "))
+print(f"Last digit is {a[-1]}")
+"""
 
 #problem7
 """
@@ -74,4 +77,130 @@ age=2025-b
 print("Hey,  {} . You are {} years old".format(a, age) )
 """
 
-#problem2
+#problem2 
+"""
+txt = 'LMaasleitbtui'
+print(txt[::2])
+"""
+#problem3
+"""
+word=str(input("Enter the word: "))
+print(len(word))
+print(word.upper())
+print(word.lower())
+"""
+
+#problem4
+
+"""
+word=str(input("Enter the word; "))
+if word==word[::-1]:
+    print("Palindrome")
+else:
+    print("Not palindrome")
+    """
+
+#problem5
+
+
+
+#problem6
+"""
+string1=str(input("Enter the word: "))
+string2=str(input("Enter second word: "))
+if string2 in string1:
+    print("True")
+else:
+        print("False")
+"""
+
+#problem7
+"""
+sentence=str(input("Enter the sentence: "))
+word1=str(input("Enter the word to replace: "))
+if word1 in sentence: 
+    
+    word2=str(input("Which word do you want to replace with?"))
+    print(sentence.replace(word1, word2))
+"""
+
+#problem8
+"""
+word=str(input("Enter the word: "))
+print(f"First letter is {word[0]}, and last letter is {word[-1]}")
+"""
+
+#problem9
+"""
+word=str(input("Enter the word: "))
+print(word[::-1])
+"""
+
+#problem10
+"""
+sentence=str(input("Enter the entence: "))
+word_count=len(sentence.split())
+print(word_count)
+"""
+
+#problem11
+"""
+sentence=str(input("Enter the sentence: "))
+if any(char.isdigit() for char in sentence):
+    print("True")
+else:
+    print("False" )
+    """
+#problem12
+"""
+sentence=str(input("Enter the words :"))
+separator=str(input("choose the separator. Eg: , - ;"))
+print(separator.join(sentence.split()))
+"""
+
+#problem13
+"""
+word=str(input("Enter the sentence: "))
+print(word.replace(" ", ""))
+"""
+
+#problem14 
+"""
+st1=str(input("Enter the first word: "))
+st2=str(input("Enter second word: "))
+if st1==st2:
+    print("Equal")
+else:
+    print("Not equal")
+    """
+
+    #problem15
+"""
+sentence=str(input("Enter the word: "))
+first_letters=[word[0] for word in sentence.split()]  #split separates sentence into words. and [word[0] for word in sentence.split()]  extracts first char of each words
+acronym="".join(first_letters) #joins the first letters
+print(acronym)
+"""
+
+#problem16
+"""
+word=str(input("Enter the sentence: "))
+char=str(input("Enter the character: "))
+print(word.replace(char, ""))
+"""
+
+#problem17
+"""
+word=str(input("Enter the sentence: "))
+vowels= 'aoiueAOIUE'
+for vowel in vowels:   #for each vowel in vowels
+    word=word.replace(vowel, "*")
+print(word)
+"""
+
+#print18
+"""
+word=str(input("Enter the sentence: "))
+words=word.split()
+print(f"Sentence begin with {words[0]}, and ends with {words[-1]}")
+"""
