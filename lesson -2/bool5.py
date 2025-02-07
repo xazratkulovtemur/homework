@@ -1,0 +1,6 @@
+word1=str(input("Enter the first word: "))
+word2=str(input("Enter the second word: "))
+l1=len(word1)
+l2=len(word2)
+same=(l1==l2)
+print(bool(same))
