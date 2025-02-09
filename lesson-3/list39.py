@@ -1,0 +1,9 @@
+numbers=[1,1,2,3,4,5,3,4,1,7]
+print(numbers)
+a=len(numbers)
+sublist1=numbers[:a//2]
+sublist2=numbers[a//2:]
+last_list=[]
+last_list.append(sublist1)
+last_list.append(sublist2)
+print(last_list)
