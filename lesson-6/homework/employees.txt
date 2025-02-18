@@ -1,0 +1,6 @@
+{
+    "id": 240206,
+    "name": "Temur",
+    "position": "student",
+    "salary": 0
+}

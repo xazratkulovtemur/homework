@@ -1,0 +1,5 @@
+Word Count Report!
+Total words : 1004
+ a : 45
+ to : 38
+ the : 33
