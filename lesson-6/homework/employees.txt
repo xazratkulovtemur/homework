@@ -1,6 +1,7 @@
-{
-    "id": 240206,
-    "name": "Temur",
-    "position": "student",
-    "salary": 0
-}
+1000, Temur, student, 0
+1003, Temur, student, 0
+1004, Temur, Student, 1000
+1005, Temur, sfwe, 10
+1, 1, 1, 1
+1009, Temur, student, 0
+1120, Temur, ecvwe, 1
