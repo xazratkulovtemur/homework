@@ -1,2 +1,3 @@
 101, Aziz, Dentist, 10000000000
 102, John, Doctor, 10000
+1000, Temur, manager, 1000

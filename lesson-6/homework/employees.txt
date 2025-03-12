@@ -5,3 +5,4 @@
 1, 1, 1, 1
 1009, Temur, student, 0
 1120, Temur, ecvwe, 1
+240206, Temur, student, 10000
