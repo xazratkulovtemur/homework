@@ -4,7 +4,7 @@ import csv
 from bs4 import BeautifulSoup
 
 sql_file=r"D:\MAAB academy new\python\homework\lesson-12\homework\jobs.db"
-csv_sourse=f"D:\MAAB academy new\python\homework\lesson-12\homework\filtered_jobs.csv"
+csv_sourse=r"D:\MAAB academy new\python\homework\lesson-12\homework\filtered_jobs.csv"
 
 
 def scrape_jobs():
